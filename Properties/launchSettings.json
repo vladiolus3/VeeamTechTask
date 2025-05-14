@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "VeeamTechTask": {
+      "commandName": "Project",
+      "commandLineArgs": "source=\"D:\\C# proj\\VeeamTechTask\\source\" destination=\"D:\\C# proj\\VeeamTechTask\\replica\" interval=5"
+    }
+  }
+}
