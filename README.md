@@ -9,11 +9,13 @@ replica folder should be modified to exactly match content of the source
 folder;
 
 Synchronization should be performed periodically;
+
 File creation/copying/removal operations should be logged to a file and to the
 console output;
 
 Folder paths, synchronization interval and log file path should be provided
 using the command line arguments;
+
 It is undesirable to use third-party libraries that implement folder
 synchronization;
 

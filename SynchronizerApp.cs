@@ -1,8 +1,7 @@
 ﻿namespace VeeamTechTask
 {
-    sealed internal class SynchronizerApp
+    sealed internal class SynchronizerApp(ISynchronizer synchronizer)
     {
-        private ISynchronizer synchronizer = new Synchronizer();
         private string? source;
         private string? destination;
         private int? interval;
@@ -53,7 +52,7 @@
                 if (splitedArg.Length != 2)
                     throw new ArgumentException($"Incorrect argument: {arg}. Must be as key=value");
 
-                var (key, value) = (splitedArg[0], splitedArg[1]);
+                var (key, value) = (splitedArg[0].ToLower(), splitedArg[1]);
 
                 switch (key)
                 {

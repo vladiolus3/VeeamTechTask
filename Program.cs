@@ -3,7 +3,8 @@
 var cts = new CancellationTokenSource();
 var ct = cts.Token;
 
-var synchronizerApp = new SynchronizerApp();
+var synchronizer = new Synchronizer();
+var synchronizerApp = new SynchronizerApp(synchronizer);
 
 await synchronizerApp.RunAsync(args, ct);
 

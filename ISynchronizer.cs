@@ -24,21 +24,22 @@
 
             foreach (var sourceFile in allSourceFilesDict)
             {
-                if (!allDestinationFilesDict.ContainsKey(sourceFile.Key)) 
-                {
-                    //add to dest folder
+                var destinationFullPath = Path.Combine(destinationDirInfo.FullName, sourceFile.Key);
+
+                if (!sourceFile.Value.IsFileReadable())
                     continue;
-                }
 
-                var replicaFile = allDestinationFilesDict[sourceFile.Key];
+                var destinationFileExists = allDestinationFilesDict.TryGetValue(sourceFile.Key, out var replicaFile);
 
-                if (replicaFile!.LastWriteTime != sourceFile.Value.LastWriteTime) 
+                var destinationFileUpdated = !destinationFileExists 
+                    || replicaFile!.LastWriteTime != sourceFile.Value.LastWriteTime 
+                    || !replicaFile.EqualsTo(sourceFile.Value);
+
+                if (destinationFileUpdated) 
                 {
-                    //update in dest folder
+                    sourceFile.Value.Upsert(destinationFullPath);
 
                 }
-
-                // add checking by reading files
 
             }
 
@@ -46,7 +47,12 @@
 
             foreach (var filePath in filesToRemove) 
             {
-                //allDestinationFilesDict[filePath] file remove in dest folder
+                var replicaFile = allDestinationFilesDict[filePath];
+
+                if (!replicaFile.TryToDelete()) 
+                {
+                    //logging
+                }
 
             }
 
