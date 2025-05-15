@@ -1,4 +1,5 @@
 ﻿using Serilog;
+using System.Diagnostics;
 
 namespace VeeamTechTask
 {
@@ -47,6 +48,20 @@ namespace VeeamTechTask
             var allDestinationDirectoriesDict = GetDiretoriesWithRelativePaths(destinationDir);
 
             var directoriesToRemove = allDestinationDirectoriesDict.Keys.Where(k => !allSourceDirectoriesDict.ContainsKey(k));
+
+            foreach (var dir in allSourceDirectoriesDict) 
+            {
+                var destinationFullPath = Path.Combine(destinationDir.FullName, dir.Key);
+
+                var dirInfo = new DirectoryInfo(destinationFullPath);
+                if (!dirInfo.Exists)
+                {
+                    dirInfo.Create();
+                    logger.Debug("Directory {dir} is created", dirInfo.FullName);
+
+                }
+
+            }
 
             foreach (var dirPath in directoriesToRemove)
             {
