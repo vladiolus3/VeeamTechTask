@@ -1,0 +1,135 @@
+[2025-05-15 16:15:03.829] INF Synchronization process has been completed.
+[2025-05-15 16:15:08.860] INF Synchronization process has been completed.
+[2025-05-15 16:15:13.869] INF Synchronization process has been completed.
+[2025-05-15 16:15:18.882] INF Synchronization process has been completed.
+[2025-05-15 16:15:23.895] INF Synchronization process has been completed.
+[2025-05-15 16:15:28.909] DBG File D:\C# proj\VeeamTechTask\replica\1.docx is created
+[2025-05-15 16:15:28.913] INF Synchronization process has been completed.
+[2025-05-15 16:15:33.922] INF Synchronization process has been completed.
+[2025-05-15 16:15:38.926] INF Synchronization process has been completed.
+[2025-05-15 16:15:43.929] INF Synchronization process has been completed.
+[2025-05-15 16:15:48.941] INF Synchronization process has been completed.
+[2025-05-15 16:15:53.956] INF Synchronization process has been completed.
+[2025-05-15 16:15:58.971] INF Synchronization process has been completed.
+[2025-05-15 16:16:03.979] INF Synchronization process has been completed.
+[2025-05-15 16:16:08.991] INF Synchronization process has been completed.
+[2025-05-15 16:16:14.000] INF Synchronization process has been completed.
+[2025-05-15 16:16:19.014] INF Synchronization process has been completed.
+[2025-05-15 16:16:24.020] INF Synchronization process has been completed.
+[2025-05-15 16:16:29.041] INF File D:\C# proj\VeeamTechTask\source\1.docx is not readable
+[2025-05-15 16:16:29.043] DBG File D:\C# proj\VeeamTechTask\replica\~$1.docx is created
+[2025-05-15 16:16:29.045] INF Synchronization process has been completed.
+[2025-05-15 16:16:34.048] INF File D:\C# proj\VeeamTechTask\source\1.docx is not readable
+[2025-05-15 16:16:34.051] INF Synchronization process has been completed.
+[2025-05-15 16:16:39.053] INF File D:\C# proj\VeeamTechTask\source\1.docx is not readable
+[2025-05-15 16:16:39.056] INF Synchronization process has been completed.
+[2025-05-15 16:16:44.062] DBG File D:\C# proj\VeeamTechTask\replica\1.docx is updated
+[2025-05-15 16:16:44.066] DBG File D:\C# proj\VeeamTechTask\replica\~$1.docx is deleted
+[2025-05-15 16:16:44.067] INF Synchronization process has been completed.
+[2025-05-15 16:16:49.068] INF Synchronization process has been completed.
+[2025-05-15 16:16:54.077] INF Synchronization process has been completed.
+[2025-05-15 16:16:59.086] INF Synchronization process has been completed.
+[2025-05-15 16:17:04.104] INF Synchronization process has been completed.
+[2025-05-15 16:17:09.183] INF Synchronization process has been completed.
+[2025-05-15 16:17:14.184] INF Synchronization process has been completed.
+[2025-05-15 16:17:19.197] INF Synchronization process has been completed.
+[2025-05-15 16:17:24.209] INF Synchronization process has been completed.
+[2025-05-15 16:17:29.211] INF Synchronization process has been completed.
+[2025-05-15 16:17:34.226] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Dash_Left_Right\Dash_Left_Right_V2-Sheet.png is created
+[2025-05-15 16:17:34.229] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Dash_Left_Right\Dash_Left_Right_V2.aseprite is created
+[2025-05-15 16:17:34.231] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Dash_Left_Right\Dash_Left_Right_V2.gif is created
+[2025-05-15 16:17:34.232] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Die\Die_V2-Sheet.png is created
+[2025-05-15 16:17:34.234] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Die\Die_V2.aseprite is created
+[2025-05-15 16:17:34.235] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Die\Die_V2.gif is created
+[2025-05-15 16:17:34.237] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\double jump\DJump_40x40_V6-Sheet.png is created
+[2025-05-15 16:17:34.238] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\double jump\DJump_40x40_V6.aseprite is created
+[2025-05-15 16:17:34.243] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\double jump\DJump_40x40_V6.gif is created
+[2025-05-15 16:17:34.245] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Drone Idle\Drone_Idle_V4-Sheet.png is created
+[2025-05-15 16:17:34.247] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Drone Idle\Drone_Idle_V4.aseprite is created
+[2025-05-15 16:17:34.642] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Drone Idle\Drone_Idle_V4.gif is created
+[2025-05-15 16:17:34.644] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Flow Move\Flow_BetterRef_V7-Sheet.png is created
+[2025-05-15 16:17:34.646] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Flow Move\Flow_BetterRef_V7.aseprite is created
+[2025-05-15 16:17:34.650] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Flow Move\Flow_BetterRef_V7.gif is created
+[2025-05-15 16:17:34.652] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Idle\G3stalt_Idle_32x32_V4-Sheet-export.png is created
+[2025-05-15 16:17:34.654] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Idle\G3stalt_Idle_32x32_V4-Sheet.png is created
+[2025-05-15 16:17:34.655] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Idle\G3stalt_Idle_32x32_V4.aseprite is created
+[2025-05-15 16:17:34.657] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Jump\G3stalt_Jump_V13-Sheet.png is created
+[2025-05-15 16:17:34.659] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Jump\G3stalt_Jump_V13.aseprite is created
+[2025-05-15 16:17:34.662] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Jump\G3stalt_Jump_V13.gif is created
+[2025-05-15 16:17:34.664] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Pipe Slide Grind (brush boarding lol)\Grind_Pipe_Slide_V4-Sheet.png is created
+[2025-05-15 16:17:34.666] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Pipe Slide Grind (brush boarding lol)\Grind_Pipe_Slide_V4.aseprite is created
+[2025-05-15 16:17:34.667] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Pipe Slide Grind (brush boarding lol)\Grind_Pipe_Slide_V4.gif is created
+[2025-05-15 16:17:34.669] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Respawn\Respawn_V1-Sheet.png is created
+[2025-05-15 16:17:34.671] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Respawn\Respawn_V1.aseprite is created
+[2025-05-15 16:17:34.672] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Respawn\Respawn_V1.gif is created
+[2025-05-15 16:17:34.674] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Run Anim\G3stalt_Run_32x32_V7-Sheet.png is created
+[2025-05-15 16:17:34.690] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Run Anim\G3stalt_Run_32x32_V7.aseprite is created
+[2025-05-15 16:17:34.696] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Run Anim\G3stalt_Run_32x32_V7.gif is created
+[2025-05-15 16:17:34.698] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Skate Fast\Skate_Faster_V6-Sheet.png is created
+[2025-05-15 16:17:34.700] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Skate Fast\Skate_Faster_V6.aseprite is created
+[2025-05-15 16:17:34.721] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Skate Fast\Skate_Faster_V6.gif is created
+[2025-05-15 16:17:34.723] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Slide\Slide_V2-Sheet.png is created
+[2025-05-15 16:17:34.728] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Slide\Slide_V2.aseprite is created
+[2025-05-15 16:17:34.730] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Slide\Slide_V2.gif is created
+[2025-05-15 16:17:34.731] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Stop Skate Fast\G3stalt_SkateFastStop_V3-Sheet.png is created
+[2025-05-15 16:17:34.744] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Stop Skate Fast\G3stalt_SkateFastStop_V3.aseprite is created
+[2025-05-15 16:17:34.752] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Stop Skate Fast\G3stalt_SkateFastStop_V3.gif is created
+[2025-05-15 16:17:34.754] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Stretch Idle\Stretch_V4-Sheet.png is created
+[2025-05-15 16:17:34.756] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Stretch Idle\Stretch_V4.aseprite is created
+[2025-05-15 16:17:34.758] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Stretch Idle\Stretch_V4.gif is created
+[2025-05-15 16:17:34.760] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Wall Jump\G3stalt_WalljumpV4-Sheet.png is created
+[2025-05-15 16:17:34.762] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Wall Jump\G3stalt_WalljumpV4.aseprite is created
+[2025-05-15 16:17:34.763] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Wall Jump\G3stalt_WalljumpV4.gif is created
+[2025-05-15 16:17:34.766] INF Synchronization process has been completed.
+[2025-05-15 16:17:40.086] INF Synchronization process has been completed.
+[2025-05-15 16:17:45.396] INF Synchronization process has been completed.
+[2025-05-15 16:17:50.709] INF Synchronization process has been completed.
+[2025-05-15 16:17:55.720] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Dash_Left_Right\Dash_Left_Right_V2-Sheet.png is deleted
+[2025-05-15 16:17:55.722] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Dash_Left_Right\Dash_Left_Right_V2.aseprite is deleted
+[2025-05-15 16:17:55.723] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Dash_Left_Right\Dash_Left_Right_V2.gif is deleted
+[2025-05-15 16:17:55.724] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Die\Die_V2-Sheet.png is deleted
+[2025-05-15 16:17:55.725] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Die\Die_V2.aseprite is deleted
+[2025-05-15 16:17:55.726] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Die\Die_V2.gif is deleted
+[2025-05-15 16:17:55.727] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\double jump\DJump_40x40_V6-Sheet.png is deleted
+[2025-05-15 16:17:55.728] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\double jump\DJump_40x40_V6.aseprite is deleted
+[2025-05-15 16:17:55.729] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\double jump\DJump_40x40_V6.gif is deleted
+[2025-05-15 16:17:55.731] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Drone Idle\Drone_Idle_V4-Sheet.png is deleted
+[2025-05-15 16:17:55.735] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Drone Idle\Drone_Idle_V4.aseprite is deleted
+[2025-05-15 16:17:55.739] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Drone Idle\Drone_Idle_V4.gif is deleted
+[2025-05-15 16:17:55.741] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Flow Move\Flow_BetterRef_V7-Sheet.png is deleted
+[2025-05-15 16:17:55.742] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Flow Move\Flow_BetterRef_V7.aseprite is deleted
+[2025-05-15 16:17:55.744] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Flow Move\Flow_BetterRef_V7.gif is deleted
+[2025-05-15 16:17:55.745] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Idle\G3stalt_Idle_32x32_V4-Sheet-export.png is deleted
+[2025-05-15 16:17:55.746] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Idle\G3stalt_Idle_32x32_V4-Sheet.png is deleted
+[2025-05-15 16:17:55.747] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Idle\G3stalt_Idle_32x32_V4.aseprite is deleted
+[2025-05-15 16:17:55.748] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Jump\G3stalt_Jump_V13-Sheet.png is deleted
+[2025-05-15 16:17:55.749] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Jump\G3stalt_Jump_V13.aseprite is deleted
+[2025-05-15 16:17:55.750] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Jump\G3stalt_Jump_V13.gif is deleted
+[2025-05-15 16:17:55.753] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Pipe Slide Grind (brush boarding lol)\Grind_Pipe_Slide_V4-Sheet.png is deleted
+[2025-05-15 16:17:55.755] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Pipe Slide Grind (brush boarding lol)\Grind_Pipe_Slide_V4.aseprite is deleted
+[2025-05-15 16:17:55.757] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Pipe Slide Grind (brush boarding lol)\Grind_Pipe_Slide_V4.gif is deleted
+[2025-05-15 16:17:55.758] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Respawn\Respawn_V1-Sheet.png is deleted
+[2025-05-15 16:17:55.759] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Respawn\Respawn_V1.aseprite is deleted
+[2025-05-15 16:17:55.760] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Respawn\Respawn_V1.gif is deleted
+[2025-05-15 16:17:55.761] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Run Anim\G3stalt_Run_32x32_V7-Sheet.png is deleted
+[2025-05-15 16:17:55.762] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Run Anim\G3stalt_Run_32x32_V7.aseprite is deleted
+[2025-05-15 16:17:55.764] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Run Anim\G3stalt_Run_32x32_V7.gif is deleted
+[2025-05-15 16:17:55.765] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Skate Fast\Skate_Faster_V6-Sheet.png is deleted
+[2025-05-15 16:17:55.767] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Skate Fast\Skate_Faster_V6.aseprite is deleted
+[2025-05-15 16:17:55.768] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Skate Fast\Skate_Faster_V6.gif is deleted
+[2025-05-15 16:17:55.772] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Slide\Slide_V2-Sheet.png is deleted
+[2025-05-15 16:17:55.774] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Slide\Slide_V2.aseprite is deleted
+[2025-05-15 16:17:55.776] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Slide\Slide_V2.gif is deleted
+[2025-05-15 16:17:55.777] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Stop Skate Fast\G3stalt_SkateFastStop_V3-Sheet.png is deleted
+[2025-05-15 16:17:55.778] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Stop Skate Fast\G3stalt_SkateFastStop_V3.aseprite is deleted
+[2025-05-15 16:17:55.779] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Stop Skate Fast\G3stalt_SkateFastStop_V3.gif is deleted
+[2025-05-15 16:17:55.780] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Stretch Idle\Stretch_V4-Sheet.png is deleted
+[2025-05-15 16:17:55.781] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Stretch Idle\Stretch_V4.aseprite is deleted
+[2025-05-15 16:17:55.783] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Stretch Idle\Stretch_V4.gif is deleted
+[2025-05-15 16:17:55.783] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Wall Jump\G3stalt_WalljumpV4-Sheet.png is deleted
+[2025-05-15 16:17:55.787] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Wall Jump\G3stalt_WalljumpV4.aseprite is deleted
+[2025-05-15 16:17:55.789] DBG File D:\C# proj\VeeamTechTask\replica\Aseprite - 15 Prototyped Animations Pack\Aseprite - 15 Prototyped Animations Pack\Wall Jump\G3stalt_WalljumpV4.gif is deleted
+[2025-05-15 16:17:55.790] INF Synchronization process has been completed.
+[2025-05-15 16:18:00.799] INF Synchronization process has been completed.
+[2025-05-15 16:18:05.800] INF Synchronization process has been completed.
+[2025-05-15 16:18:10.802] INF Synchronization process has been completed.

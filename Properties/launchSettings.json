@@ -2,7 +2,7 @@
   "profiles": {
     "VeeamTechTask": {
       "commandName": "Project",
-      "commandLineArgs": "source=\"D:\\C# proj\\VeeamTechTask\\source\" destination=\"D:\\C# proj\\VeeamTechTask\\replica\" interval=5"
+      "commandLineArgs": "s=\"D:\\C# proj\\VeeamTechTask\\source\" d=\"D:\\C# proj\\VeeamTechTask\\replica\" l=\"D:\\C# proj\\VeeamTechTask\\logs.txt\" i=5"
     }
   }
 }

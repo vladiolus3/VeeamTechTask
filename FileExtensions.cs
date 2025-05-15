@@ -9,7 +9,7 @@ namespace VeeamTechTask
         {
             try
             {
-                using (var stream = file.Open(FileMode.Open, FileAccess.Read, FileShare.Read))
+                using var stream = file.Open(FileMode.Open, FileAccess.Read, FileShare.Read);
                 return true;
 
             }
@@ -21,8 +21,8 @@ namespace VeeamTechTask
         {
             try
             {
-                using (var stream = file.Open(FileMode.Open, FileAccess.Write, FileShare.Read))
-                    return true;
+                using var stream = file.Open(FileMode.Open, FileAccess.Write, FileShare.Read);
+                return true;
 
             }
             catch { return false; }
@@ -33,6 +33,7 @@ namespace VeeamTechTask
         {
             Directory.CreateDirectory(Path.GetDirectoryName(destination)!);
             file.CopyTo(destination, overwrite: true);
+
         }
 
         public static bool TryToDelete(this FileInfo file) 
@@ -61,7 +62,7 @@ namespace VeeamTechTask
                     md5.TransformBlock(buffer, 0, bytesRead, null, 0);
                 }
 
-                md5.TransformFinalBlock(Array.Empty<byte>(), 0, 0);
+                md5.TransformFinalBlock([], 0, 0);
 
                 file1Hash = md5.Hash!;
 
@@ -80,7 +81,7 @@ namespace VeeamTechTask
                     md5.TransformBlock(buffer, 0, bytesRead, null, 0);
                 }
 
-                md5.TransformFinalBlock(Array.Empty<byte>(), 0, 0);
+                md5.TransformFinalBlock([], 0, 0);
 
                 file2Hash = md5.Hash!;
 

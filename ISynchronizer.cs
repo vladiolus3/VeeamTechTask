@@ -1,4 +1,6 @@
-﻿namespace VeeamTechTask
+﻿using Serilog;
+
+namespace VeeamTechTask
 {
     internal interface ISynchronizer
     {
@@ -6,7 +8,7 @@
 
     }
 
-    internal class Synchronizer : ISynchronizer
+    internal class Synchronizer(ILogger logger) : ISynchronizer
     {
         public void Synchronize(string source, string destination) 
         {
@@ -17,7 +19,20 @@
                 destination = Path.GetFullPath(destination);
 
             var sourceDirInfo = new DirectoryInfo(source)!;
+            if (!sourceDirInfo.Exists)
+            {
+                sourceDirInfo.Create();
+                logger.Debug("Directory {dir} created", sourceDirInfo);
+
+            }
+
             var destinationDirInfo = new DirectoryInfo(destination)!;
+            if (!destinationDirInfo.Exists)
+            {
+                destinationDirInfo.Create();
+                logger.Debug("Directory {dir} created", destinationDirInfo);
+
+            }
 
             var allSourceFilesDict = GetFilesWithRelativePaths(sourceDirInfo);
             var allDestinationFilesDict = GetFilesWithRelativePaths(destinationDirInfo);
@@ -27,7 +42,11 @@
                 var destinationFullPath = Path.Combine(destinationDirInfo.FullName, sourceFile.Key);
 
                 if (!sourceFile.Value.IsFileReadable())
+                {
+                    logger.Information("File {file} is not readable", sourceFile.Value.FullName);
                     continue;
+                
+                }
 
                 var destinationFileExists = allDestinationFilesDict.TryGetValue(sourceFile.Key, out var replicaFile);
 
@@ -37,6 +56,11 @@
 
                 if (destinationFileUpdated) 
                 {
+                    if (!destinationFileExists)
+                        logger.Debug("File {file} is created", destinationFullPath);
+                    else 
+                        logger.Debug("File {file} is updated", destinationFullPath);
+
                     sourceFile.Value.Upsert(destinationFullPath);
 
                 }
@@ -49,16 +73,16 @@
             {
                 var replicaFile = allDestinationFilesDict[filePath];
 
-                if (!replicaFile.TryToDelete()) 
-                {
-                    //logging
-                }
+                if (!replicaFile.TryToDelete())
+                    logger.Debug("File {file} is not unable for deleting", replicaFile.FullName);
+                else
+                    logger.Debug("File {file} is deleted", replicaFile.FullName);
 
             }
 
         }
 
-        private IReadOnlyDictionary<string, FileInfo> GetFilesWithRelativePaths(DirectoryInfo directory)
+        private static Dictionary<string, FileInfo> GetFilesWithRelativePaths(DirectoryInfo directory)
         {
             var files = directory.GetFiles("*", SearchOption.AllDirectories);
             var filesDict = new Dictionary<string, FileInfo>(); 
