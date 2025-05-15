@@ -88,9 +88,10 @@
 
             }
 
-            if (Source == null) throw new ArgumentException("Source can not be null");
-            if (Destination == null) throw new ArgumentException("Destination can not be null");
-            if (Interval == null) throw new ArgumentException("Internal can not be null");
+#pragma warning disable CA2208
+            if (Source == null) throw new ArgumentNullException(nameof(Source));
+            if (Destination == null) throw new ArgumentNullException(nameof(Destination));
+            if (Interval == null) throw new ArgumentNullException(nameof(Interval));
 
         }
 

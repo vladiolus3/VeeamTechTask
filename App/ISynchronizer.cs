@@ -19,23 +19,24 @@ namespace VeeamTechTask.App
                 destination = Path.GetFullPath(destination);
 
             var sourceDirInfo = new DirectoryInfo(source)!;
-            if (!sourceDirInfo.Exists)
-            {
-                sourceDirInfo.Create();
-                logger.Debug("Directory {dir} created", sourceDirInfo);
-
-            }
+            CreateIfNotExists(sourceDirInfo);
 
             var destinationDirInfo = new DirectoryInfo(destination)!;
-            if (!destinationDirInfo.Exists)
-            {
-                destinationDirInfo.Create();
-                logger.Debug("Directory {dir} created", destinationDirInfo);
-
-            }
+            CreateIfNotExists(destinationDirInfo);
 
             CheckDirectories(sourceDirInfo, destinationDirInfo);
             CheckFiles(sourceDirInfo, destinationDirInfo);
+
+        }
+
+        private void CreateIfNotExists(DirectoryInfo dirInfo) 
+        {
+            if (!dirInfo.Exists)
+            {
+                dirInfo.Create();
+                logger.Debug("Directory {dir} created", dirInfo);
+
+            }
 
         }
 
@@ -68,8 +69,10 @@ namespace VeeamTechTask.App
                 var dirInfo = new DirectoryInfo(replicaDirName); // directory info doen`t update Exists status
                 if (dirInfo.Exists)
                 {
-                    dirInfo.Delete(true);
-                    logger.Debug("Directory {dir} is deleted", dirInfo.FullName);
+                    if (!dirInfo.TryToDelete())
+                        logger.Debug("Directory {dir} is not unable for deleting", dirInfo.FullName);
+                    else
+                        logger.Debug("Directory {dir} is deleted", dirInfo.FullName);
 
                 }
 
