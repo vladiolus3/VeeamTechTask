@@ -1,4 +1,4 @@
-﻿namespace VeeamTechTask
+﻿namespace VeeamTechTask.App
 {
     internal static class AppConfig
     {
@@ -37,7 +37,7 @@
 
             }
 
-            if (args == null || (args.Count != 3 && args.Count != 4))
+            if (args == null || args.Count != 3 && args.Count != 4)
                 throw new ArgumentException("Expected at least 3 arguments: <source> <destination> <intervalSeconds>. " +
                     "<logPath> is optional.");
 

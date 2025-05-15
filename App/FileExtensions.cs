@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Collections;
 
-namespace VeeamTechTask
+namespace VeeamTechTask.App
 {
     internal static class FileExtensions
     {

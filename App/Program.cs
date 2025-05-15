@@ -1,5 +1,5 @@
-﻿using VeeamTechTask;
-using Serilog;
+﻿using Serilog;
+using VeeamTechTask.App;
 
 AppConfig.Init(args);
 

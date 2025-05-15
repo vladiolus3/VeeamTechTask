@@ -1,6 +1,6 @@
 ﻿using Serilog;
 
-namespace VeeamTechTask
+namespace VeeamTechTask.App
 {
     sealed internal class SynchronizerApp(ISynchronizer synchronizer, ILogger logger)
     {

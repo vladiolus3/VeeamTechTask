@@ -1,7 +1,6 @@
 ﻿using Serilog;
-using System.Diagnostics;
 
-namespace VeeamTechTask
+namespace VeeamTechTask.App
 {
     internal interface ISynchronizer
     {
